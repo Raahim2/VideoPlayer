@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical AI</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #00a8e8;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+img{
+    mix-blend-mode: multiply;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: #ccc;
+}
+p,ul{
+    font-size:large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #00a8e8;
+    color: white;
+}
+
+nav a.active {
+    color: white;
+    background-color: #00a8e8;
+}
+
+main section {
+    padding: 20px;
+}
+
+main section:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+main section h2 {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    color: #00a8e8;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: wheat;
+}
+</style>
+
+<body>
+    <header >
+        <img class="mx-auto" src="https://raw.githubusercontent.com/Raahim2/Hackoona-Mattata/main/templates/image.png" alt="logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about-ai">About AI</a></li>
+            <li><a href="#our-services">Our Services</a></li>
+            <li><a href="#ai-technology">Login</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+    </nav>
+    <section class="h-screen">
+        <div class="container h-full px-6 py-24">
+            <div class="flex h-full flex-wrap items-center justify-center lg:justify-between">
+
+                <div class="md:w-8/12 lg:ms-6 lg:w-5/12">
+                    <h2 class="text-center font-semibold text-4xl">For Patient</h2>
+                        <div class="relative mb-6 m-10" >
+                            Take control of your healthcare journey with our secure and convenient patient login. Join thousands of patients who are experiencing personalized care and seamless communication with their healthcare providers.
+                        </div>
+
+                        
+                        <div class="mb-6 flex items-center justify-between">
+   
+                        </div>
+                        <div
+                            class="my-4 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300 dark:before:border-neutral-500 dark:after:border-neutral-500">
+                            <p class="mx-4 mb-0 text-center font-semibold dark:text-neutral-200">
+                                Join US
+                            </p>
+                        </div>
+
+                        
+                        <a class="mb-3 flex w-full items-center justify-center rounded bg-primary px-7 pb-2.5 pt-3 text-center text-sm font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
+                            style="background-color: #3b5998" href="/login" role="button" data-twe-ripple-init
+                            data-twe-ripple-color="light">
+                            
+                            <span class="me-2 fill-white [&>svg]:mx-auto [&>svg]:h-3.5 [&>svg]:w-3.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                  
+                                    <path
+                                        d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+                                </svg>
+                            </span>
+                            Login For Patients
+                        </a>
+                        <a class="mb-3 flex w-full items-center justify-center rounded bg-info px-7 pb-2.5 pt-3 text-center text-sm font-medium uppercase leading-normal text-white shadow-info-3 transition duration-150 ease-in-out hover:bg-info-accent-300 hover:shadow-info-2 focus:bg-info-accent-300 focus:shadow-info-2 focus:outline-none focus:ring-0 active:bg-info-600 active:shadow-info-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
+                            style="background-color: #55acee" href="/signup" role="button" data-twe-ripple-init
+                            data-twe-ripple-color="light">
+                            <!-- X -->
+                            <span class="me-2 fill-white [&>svg]:h-3.5 [&>svg]:w-3.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    
+                                    <path
+                                        d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                                </svg>
+                            </span>
+                            SignUp For Patients
+                        </a>
+                    
+                </div>
+
+
+                <div class="md:w-8/12 lg:ms-6 lg:w-5/12">
+                    <h2 class="text-center font-semibold text-4xl">For Doctors</h2>
+                        <div class="relative mb-6 m-10" >
+                            Join thousands of doctors worldwide, enhance your medical expertise, stay updated with the latest advancements, collaborate with peers So Join our community today and take your medical practice to new heights.
+                        </div>
+
+                        
+                        <div class="mb-6 flex items-center justify-between">
+   
+                        </div>
+                        <div
+                            class="my-4 flex items-center before:mt-0.5 before:flex-1 before:border-t before:border-neutral-300 after:mt-0.5 after:flex-1 after:border-t after:border-neutral-300 dark:before:border-neutral-500 dark:after:border-neutral-500">
+                            <p class="mx-4 mb-0 text-center font-semibold dark:text-neutral-200">
+                                Join US
+                            </p>
+                        </div>
+
+                        
+                        <a class="mb-3 flex w-full items-center justify-center rounded bg-primary px-7 pb-2.5 pt-3 text-center text-sm font-medium uppercase leading-normal text-white shadow-primary-3 transition duration-150 ease-in-out hover:bg-primary-accent-300 hover:shadow-primary-2 focus:bg-primary-accent-300 focus:shadow-primary-2 focus:outline-none focus:ring-0 active:bg-primary-600 active:shadow-primary-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
+                            style="background-color: #3b5998" href="/login" role="button" data-twe-ripple-init
+                            data-twe-ripple-color="light">
+                            
+                            <span class="me-2 fill-white [&>svg]:mx-auto [&>svg]:h-3.5 [&>svg]:w-3.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                  
+                                    <path
+                                        d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+                                </svg>
+                            </span>
+                            Login For Doctors
+                        </a>
+                        <a  class="mb-3 flex w-full items-center justify-center rounded bg-info px-7 pb-2.5 pt-3 text-center text-sm font-medium uppercase leading-normal text-white shadow-info-3 transition duration-150 ease-in-out hover:bg-info-accent-300 hover:shadow-info-2 focus:bg-info-accent-300 focus:shadow-info-2 focus:outline-none focus:ring-0 active:bg-info-600 active:shadow-info-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
+                            style="background-color: #55acee" href="/signup" role="button" data-twe-ripple-init
+                            data-twe-ripple-color="light">
+                            <!-- X -->
+                            <span class="me-2 fill-white [&>svg]:h-3.5 [&>svg]:w-3.5">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    
+                                    <path
+                                        d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
+                                </svg>
+                            </span>
+                            SignUp For Doctors
+                        </a>
+                    
+                </div>
+  
+            </div>
+        </div>
+    </section>
+    <main>
+        <section id="about-ai">
+            <h2>About AI</h2>
+            <p>Artificial intelligence is revolutionizing healthcare, allowing early diagnosis, personalized treatment, and better patient outcomes.</p>
+            <p>The Medical Ai comes with a 24/7 support of the Doctors and also all the current illness of the patient.</p>
+            <p>The AI has an emergency system if, the patient has a slight effect of the illness and will immediately be notified to the hospital, ambulance and the current doctors and nurse taking care of the patient.</p>
+        </section>
+        <section id="our-services">
+            <h2>Our Services</h2>
+            <p>Discover the different AI services we offer to improve patient care and clinic efficiency</p>
+            <p>We provide the contacts of the best doctors available for the current needs of the patient.</p>
+            <p>We also provided 24/7 monitoring of the patient by our state of the art AI which keeps an eye on all the vitals of the patient.</p>
+            <p></p>
+        </section>
+        <section id="team">
+            <h2>Our Team</h2>
+            <p>
+                We have painstakingly developed this Medical Ai to help our society to grow and save lives. Following are the developers of MY CARE
+            </p>
+            <ul>Neal Parmar - Website Designer</ul>
+            <ul>Raahim Shaikh - AI Enginneer</ul>
+            <ul>Vedanga Bendre - CyberSecuirty Analyst</ul>
+            <ul>Taufiq Hashmi - Content Creator</ul>
+        </section>
+        <section id="contact-us">
+            <h2>Contact Us</h2>
+            <p>Reach out to us for more information or to schedule a consultation.</p>
+            <form>
+                <input type="text" name="name" placeholder="Name" required />
+                <br>
+                <input type="email" name="email" placeholder="Email" required />
+                <br>
+                <textarea name="message" placeholder="Message" required></textarea>
+                <input type="submit" value="Send" />
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>©2024 Medical AI - All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
